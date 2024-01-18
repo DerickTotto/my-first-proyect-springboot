@@ -1,0 +1,25 @@
+install scoop
+use powerShell Terminal
+iwr -useb get.scoop.sh | iex
+
+springboot install whit scoop
+
+scoop bucket add extras
+scoop install springboot
+
+Install
+Apache Maven
+Download
+https://maven.apache.org/download.cgi
+install enviroment variable
+mvn -v
+
+download proyect 
+https://start.spring.io/
+
+AGREGAR DEPENDENCIAS
+-alt+ins dentro del pom.xml
+-DEPENDENCIASy buscar la dependencia que desea
+
+https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+https://ifgeekthen.nttdata.com/es/introduccion-a-spring-boot-creacion-de-un-microservicio
